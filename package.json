@@ -1,5 +1,5 @@
 {
-  "name": "react-boiler",
+  "name": "react-context-initial",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -25,19 +25,19 @@
   },
   "homepage": "https://github.com/trevans24/react-boiler#readme",
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
-    "html-webpack-plugin": "^3.0.7",
-    "node-sass": "^4.7.2",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
-    "webpack": "^4.1.1",
+    "webpack": "^4.6.0",
     "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "proptypes": "^1.1.0",
