@@ -1,0 +1,48 @@
+{
+  "name": "react-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --progress --colors --open --mode development",
+    "build": "webpack --progress --colors --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevans24/react-boiler.git"
+  },
+  "keywords": [
+    "React",
+    "React Boiler Plate",
+    "Starter Files",
+    "Project Setup"
+  ],
+  "author": "Troy Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevans24/react-boiler/issues"
+  },
+  "homepage": "https://github.com/trevans24/react-boiler#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.7",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "proptypes": "^1.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
+  }
+}
